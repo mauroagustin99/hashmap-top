@@ -1,3 +1,25 @@
 # hashmap-top
 
 Creating a HashMap Data Structure using JS!
+
+To test this repository you need to clone it to your computer (git clone https://github.com/mauroagustin99/hashmap-top) then, navigate to the project directory, install the dependencies with: `npm install` and use the script with `node main.js` in a terminal.
+
+## Methods:
+
+`set(key, value)` takes two arguments, the first is a key and the second is a value that is assigned to this key. If a key already exists, then the old value is overwritten.
+
+`get(key)` takes one argument as a key and returns the value that is assigned to this key. If a key is not found, return null.
+
+`has(key)` takes a key as an argument and returns true or false based on whether or not the key is in the hash map.
+
+`remove(key)` takes a key as an argument. If the given key is in the hash map, it removes the entry with that key and return true. If the key isn’t in the hash map, it returns false.
+
+`length()` returns the number of stored keys in the hash map.
+
+`clear()` removes all entries in the hash map.
+
+`keys()` returns an array containing all the keys inside the hash map.
+
+`values()`returns an array containing all the values.
+
+`entries()` returns an array that contains each key, value
